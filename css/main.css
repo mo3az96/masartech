@@ -201,6 +201,21 @@ html {
     font-size: 11px;
   }
 }
+@media (max-width: 1199px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (max-width: 991px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media (max-width: 767px) {
+  html {
+    font-size: 14px;
+  }
+}
 @font-face {
   font-family: "DIN";
   src: url("../fonts/DIN/DINNextLTW23-Regular.woff2") format("woff2"), url("../fonts/DIN/DINNextLTW23-Regular.woff") format("woff"), url("../fonts/DIN/DINNextLTW23-Regular.ttf") format("truetype");
@@ -362,24 +377,45 @@ body {
 
 @keyframes twinkle {
   0%, 100% {
-    opacity: 0.5;
+    opacity: 0.25;
   }
   50% {
     opacity: 0.1;
   }
 }
 header {
-  padding: 5rem 0 2.25rem;
+  padding: 5rem 0 0;
+}
+@media (max-width: 991px) {
+  header {
+    padding: 2.5rem 0 0;
+  }
+}
+@media (max-width: 767px) {
+  header {
+    padding: 1.5rem 0 0;
+  }
 }
 
 .logo {
   width: 20.4375rem;
   aspect-ratio: 327/131;
 }
+@media (max-width: 991px) {
+  .logo {
+    width: 18.75rem;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 767px) {
+  .logo {
+    width: 12.5rem;
+  }
+}
 
 main {
   position: relative;
-  padding-bottom: 3.75rem;
+  padding: 2.25rem 0 3.75rem;
   z-index: 2;
 }
 
@@ -393,6 +429,8 @@ main {
 .main-title {
   font-size: 5rem;
   font-weight: 500;
+  position: relative;
+  z-index: 2;
 }
 .main-title span {
   color: #ffc20e;
@@ -413,6 +451,14 @@ main {
   inset-inline-end: -6.25rem;
   width: 64.125rem;
   aspect-ratio: 1026/1008;
+}
+@media (max-width: 991px) {
+  .main-img .img-holder {
+    position: relative;
+    inset: unset;
+    width: 100%;
+    transform: none;
+  }
 }
 
 @keyframes float {
@@ -961,7 +1007,6 @@ footer {
 }
 
 @media (max-width: 1199px) {
-  header,
   main,
   .items-section,
   .details-section,
@@ -971,7 +1016,6 @@ footer {
   }
 }
 @media (max-width: 991px) {
-  header,
   main,
   .items-section,
   .details-section,
@@ -981,7 +1025,6 @@ footer {
   }
 }
 @media (max-width: 767px) {
-  header,
   main,
   .items-section,
   .details-section,
