@@ -1139,6 +1139,7 @@ footer {
   padding: 3.125rem;
   border-radius: 8px;
   width: 46.875rem;
+  max-width: calc(100% - 2.5rem);
   transform: translateY(-50px);
   opacity: 0;
   transition: transform 0.3s ease, opacity 0.3s ease;
@@ -1191,12 +1192,22 @@ footer {
   font-weight: 500;
   margin-bottom: 15px;
 }
+@media (max-width: 767px) {
+  .modal-title {
+    font-size: 2rem;
+  }
+}
 
 .modal-desc {
   font-size: 2rem;
   font-weight: 400;
   color: #e5e5e5;
   margin-bottom: 25px;
+}
+@media (max-width: 767px) {
+  .modal-desc {
+    font-size: 1.5rem;
+  }
 }
 
 .modal-btn {
@@ -1215,4 +1226,10 @@ footer {
 .modal-btn:hover {
   color: #812990;
   background-color: #ffc20e;
+}
+@media (max-width: 767px) {
+  .modal-btn {
+    height: 55px;
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=main.css.map */

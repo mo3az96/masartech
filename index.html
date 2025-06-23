@@ -367,19 +367,19 @@
               <div class="form-group">
                 <label class="form-label"> اﻻﺳﻢ اﻟﺮﺑﺎﻋﻲ اﻟﻜﺎﻣﻞ </label>
                 <div class="input-content">
-                  <input type="text" class="form-control" />
+                  <input type="text" class="form-control" name="name" />
                 </div>
               </div>
               <div class="form-group">
                 <label class="form-label"> اﻟﺒﺮﻳﺪ اﻻﻟﻜﺘﺮوﻧﻲ </label>
                 <div class="input-content">
-                  <input type="email" class="form-control" />
+                  <input type="email" class="form-control" name="email" />
                 </div>
               </div>
               <div class="form-group">
                 <label class="form-label"> اﻟﻤﺆﻫﻞ اﻟﻌﻠﻤﻲ </label>
                 <div class="input-content">
-                  <select class="form-control">
+                  <select class="form-control" name="education">
                     <option value="جامعي">جامعي</option>
                     <option value="ﺛﺎﻧﻮي">ﺛﺎﻧﻮي</option>
                     <option value="دبلوم">دبلوم</option>
@@ -389,13 +389,13 @@
               <div class="form-group">
                 <label class="form-label"> رﻗﻢ اﻟﺠﻮال </label>
                 <div class="input-content">
-                  <input type="tel" class="form-control" />
+                  <input type="tel" class="form-control" name="telephone" />
                 </div>
               </div>
               <div class="form-group">
                 <label class="form-label"> ﺣﻀﻮر اﻟﺪورة </label>
                 <div class="input-content">
-                  <select class="form-control">
+                  <select class="form-control" name="mode">
                     <option value="اوﻧﻼﻳﻦ (ﻋﻦ ﺑﻌﺪ)">اوﻧﻼﻳﻦ (ﻋﻦ ﺑﻌﺪ)</option>
                     <option value="حضوري">حضوري</option>
                   </select>
@@ -404,7 +404,7 @@
               <div class="form-group">
                 <label class="form-label">موعد الدورة</label>
                 <div class="input-content">
-                  <select class="form-control">
+                  <select class="form-control" name="time">
                     <option value="من 03:00pm إلى 06:00pm">
                       من 03:00pm إلى 06:00pm
                     </option>
@@ -443,7 +443,12 @@
         /></span>
         <div class="modal-body">
           <div class="modal-icon">
-            <img loading="lazy" src="images/success.svg" alt="success" class="img-contain" />
+            <img
+              loading="lazy"
+              src="images/success.svg"
+              alt="success"
+              class="img-contain"
+            />
           </div>
           <h2 class="modal-title">تم تسجيل طلبك بنجاح</h2>
           <p class="modal-desc">سنقوم بالتواصل معك في أقرب وقت ممكن</p>
@@ -472,5 +477,6 @@
       backBtn.onclick = closeModal;
       overlay.onclick = closeModal;
     </script>
+
   </body>
 </html>
