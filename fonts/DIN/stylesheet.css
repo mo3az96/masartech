@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "DIN";
+  src: url("../fonts/DIN/DINNextLTW23-Regular.woff2") format("woff2"),
+    url("../fonts/DIN/DINNextLTW23-Regular.woff") format("woff"),
+    url("../fonts/DIN/DINNextLTW23-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DIN";
+  src: url("../fonts/DIN/DINNextLTW23-Medium.woff2") format("woff2"),
+    url("../fonts/DIN/DINNextLTW23-Medium.woff") format("woff"),
+    url("../fonts/DIN/DINNextLTW23-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DIN";
+  src: url("../fonts/DIN/DINNextLTW23-Medium.woff2") format("woff2"),
+    url("../fonts/DIN/DINNextLTW23-Medium.woff") format("woff"),
+    url("../fonts/DIN/DINNextLTW23-Medium.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DIN";
+  src: url("../fonts/DIN/DINNextLTW23-Bold.woff2") format("woff2"),
+    url("../fonts/DIN/DINNextLTW23-Bold.woff") format("woff"),
+    url("../fonts/DIN/DINNextLTW23-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DIN";
+  src: url("../fonts/DIN/DINNextLTW23-Black.woff2") format("woff2"),
+    url("../fonts/DIN/DINNextLTW23-Black.woff") format("woff"),
+    url("../fonts/DIN/DINNextLTW23-Black.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DIN";
+  src: url("../fonts/DIN/DINNextLTW23-Black.woff2") format("woff2"),
+    url("../fonts/DIN/DINNextLTW23-Black.woff") format("woff"),
+    url("../fonts/DIN/DINNextLTW23-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
